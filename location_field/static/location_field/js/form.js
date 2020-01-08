@@ -372,7 +372,8 @@ var SequentialLoader = function() {
 
             _getMapOptions: function() {
                 return $.extend(this.options.mapOptions, {
-                    center: this._getLatLng()
+                    //center: this._getLatLng()
+                    center: [6.0,1.0]
                 });
             },
 
