@@ -1,13 +1,17 @@
 {% load static %}
+
 {{field_input}}
+{{mapOptions}}
+
 
 <script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
 <script>
-    let mapOptions = {{mapOptions}};
+    let mapOptions = '{{mapOptions}}'
 </script>
 <script src="{% static 'location_field/js/app.js' %}"></script>
+
 <div class="map-widget" style="margin-top: 4px">
-    <label>{{mapOptions.foo}}</label>
+    <label></label>
 
     <div id="map_{{field_name}}" style="width: 500px; height: 250px"></div>
 </div>
