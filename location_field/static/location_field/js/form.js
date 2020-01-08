@@ -371,6 +371,8 @@ var SequentialLoader = function() {
             },
 
             _getMapOptions: function() {
+                console.log('Get map options function');
+                console.log(center)
                 return $.extend(this.options.mapOptions, {
                     //center: this._getLatLng()
                     center: [6.0,1.0]
