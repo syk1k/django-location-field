@@ -374,8 +374,8 @@ var SequentialLoader = function() {
                 console.log('Get map options function');
                 return $.extend(this.options.mapOptions, {
                     //center: this._getLatLng()
-                    center: map_options.center,
-                    attributionControl: false
+                    ...map_options
+
 
                 });
             },
