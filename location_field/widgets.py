@@ -55,7 +55,11 @@ class LocationWidget(widgets.TextInput):
 
         return render_to_string('location_field/map_widget.html', {
             'field_name': name,
-            'field_input': mark_safe(text_input)
+            'field_input': mark_safe(text_input),
+            'mapOptions': {
+                'foo': 'bar',
+            }
+
         })
 
     @property

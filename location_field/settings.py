@@ -2,6 +2,8 @@ from django.conf import settings
 
 LOCATION_FIELD_PATH = settings.STATIC_URL + 'location_field'
 
+LOCATION_FIELD_MAP_OPTIONS = settings.LOCATION_FIELD_OPTIONS
+
 LOCATION_FIELD = {
     'map.provider': 'google',
     'map.zoom': 13,

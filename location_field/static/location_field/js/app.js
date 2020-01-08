@@ -3,3 +3,5 @@ let map_options = {
     zoom: 15,
     attributionControl: false,
 }
+
+console.log(mapOptions)
