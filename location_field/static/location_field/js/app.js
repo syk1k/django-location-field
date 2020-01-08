@@ -1,1 +1,3 @@
-var center = [6.0,1.0]
+let map_options = {
+    center: [6.0,1.0]
+}
