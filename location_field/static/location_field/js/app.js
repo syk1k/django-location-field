@@ -1,1 +1,3 @@
-console.log('Hello from app.js')
+$(document).ready(()=>{
+    console.log(map)
+});
